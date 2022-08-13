@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+/* 
+body {
+
+  background: url('./Images/background.jpeg') no-repeat;
+  background-size: cover;
+
+} */
+
+.login-form {
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color:whitesmoke;
+  font-weight: bolder;
+  box-shadow: black;
+
+}
+
+.login-form h1{
+ margin: top 20% 0;
+ font-size: 40px;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+.login-form p {
+  font-size: 25px;
+  margin: 15px 0;
+  
+}
+
+.login-form input{
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 1;
+  outline: initial;
+  border-radius: 5px;
+}
+
+.login-form button{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 40px;
+  width: 40%;
+  border-radius: 4px;
+  border: 0;
+
+}
+
+.login-form img{
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  position: unset;
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+
+/* body {
+
+  background: url('./Images/background.jpeg') no-repeat;
+  background-size: cover;
+
+} */
+
+.signup-form {
+  width: 400px;
+  height: min-content;
+  margin: 40px;
+  top: auto;
+}
+
+.register form{
+  margin: 40px;
+}
+
+.register button{
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px 0;
+  padding: 10px 40px;
+  width: 40%;
+  border-radius: 4px;
+  border: 0;  
+}
+.signup-form input{
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 3px;
+  outline: 0;
+  padding: 2px;
+}
+
+.register{
+  width: 100%;
+  color:white;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background-color:rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.53);
+}
